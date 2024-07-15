@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nadafashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: whitesmoke;
+           
+        }
+
+        .navbar{
+            width: 100%;
+            height: 70px;
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .cont{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+        }
+        .cont:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        .logo{
+            font-size: 3rem;
+            color:yellow;
+            text-decoration: none;
+            margin-right: 500px;
+        }
+        
+        .logo:hover{
+            color: red;
+            font-size: 3.2rem;
+        }
+         .search-bar{
+            width: 300px;
+            height: 30px;
+            border-radius: 8px;
+            border: none;   
+         }
+         
+         #search-logo{
+            font-size: 1.2rem;
+         }
+
+         #search-logo:hover{
+            font-size: 1.3rem;
+            color: brown;
+         }
+
+          p #menu{
+              font-size: 2rem;
+              color: aliceblue;
+         }
+
+          #search-logo{
+            color: aliceblue;
+          }
+
+          .quoet-box{
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            margin-left: 35%;
+            box-shadow: 0 4px 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .text-sec{
+            color: brown;
+            font-size: 4rem;
+          }
+
+          
+
+        .content-box{
+            width: 100%;
+            height: 800px;
+            background-color:black;
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 2rem;
+            
+        }
+        
+
+        .box1{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://clipartcraft.com/images/html5-logo-square-8.png);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box1 a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .box1 a:hover{
+            text-decoration: underline;
+        }
+
+        .box1:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+           
+        }
+
+        .box2{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            background-image: url(https://kodeclust.com/wp-content/uploads/2022/12/css3-1.png);
+            background-size: cover;
+            margin: 30px;
+        }
+
+        .box2:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box2 p:hover{
+            text-decoration: underline;
+        }
+        .box3{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://th.bing.com/th/id/OIP.npIt_-RN1HHfq2x1pPjeiAAAAA?w=280&h=280&rs=1&pid=ImgDetMain);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box3:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box3 p:hover{
+            text-decoration: underline;
+        }
+
+        .box4{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://img.favpng.com/3/15/10/python-computer-icons-tutorial-computer-programming-png-favpng-14Dbt4wb2YrTmZh64WXNdNwKz.jpg);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box4:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box4 p:hover{
+            text-decoration: underline;
+        }
+
+        .box5{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://img.freepik.com/free-icon/symbol-php_318-1694.jpg);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box5:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box5 p:hover{
+            text-decoration: underline;
+        }
+
+        .box6{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            background-image: url(https://www.calltutors.com/resources/images/Java-Assignment-icon.png);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box6:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box6 p:hover{
+            text-decoration: underline;
+        }
+
+        .box7{
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            background-image: url(https://www.ictdemy.com/images/5728/nodejs_logo.png);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box7:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box7 p:hover{
+            text-decoration: underline;
+        }
+
+        .box8{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://www.kindpng.com/picc/m/27-278320_bootstrap-logo-logo-png-bootstrap-logo-transparent-png.png);
+            background-size: cover;
+            margin: 30px;
+        }
+        .box8:hover{
+            width: 320px;
+            height: 320px;
+            border: 2rem;
+        }
+        .box8 p:hover{
+            text-decoration: underline;
+        }
+
+     .course{
+        font-size: 1.5rem;
+     }
+     
+     .form-box{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+     }
+
+     .form-sec{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 4px 8px;
+
+     }
+
+     .form-item{
+
+        font-size: 1.5rem;
+        margin-top: 50px;
+     }
+
+     .thought{
+
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        columns: black;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .footer-section{
+        width: 100%;
+        height: 400px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+     }
+ 
+     li{
+        margin-top: 20px;
+        font-size: 1rem;
+     }
+
+     li:hover{
+        text-decoration: underline;
+     }
+
+     .touch{
+        margin-bottom: 10px;
+        font-size: 1rem;
+     }
+     .touch:hover{
+        text-decoration: underline;
+     }
+
+
+     .logo1{
+        margin-bottom: 10px;
+        font-size: 1rem;
+     }
+
+     .logo1:hover{
+        font-size: 1.5rem;
+     }
+     
+
+     
+
+
+     
+
+
+        
+
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <p><i class="fa-solid fa-bars" id="menu"></i></p>
+            <a href="#" class="logo"><i class="fa-solid fa-e"></i>dujourney</a>
+            <form>
+            <input type="search" placeholder="python" class="search-bar"><i id="search-logo" class="fa-solid fa-magnifying-glass" ></i>
+            
+        </form>
+        <a href="#" class="cont">contact</a>
+        <a href="#" class="cont">signup</a>
+        </div>
+    </header>
+
+
+
+
+    <div class="quoet-box">
+        <div class="text-sec">
+            <p>Unlock your potential with our expert-led courses</p>
+        </div>
+    </div>
+
+    <div class="content-box">
+        <div class="box1">
+            <p><a href="http://127.0.0.1:5500/page1.html">HTML</a></p>
+        </div>
+        <div class="box2">
+            <p>CSS</p>
+        </div>
+        <div class="box3">
+            <p>JAVASCRIPT</p>
+        </div>
+        <div class="box4">
+            <p>PYTHON</p>
+        </div>
+        <div class="box5">
+            <p>PHP</p>
+        </div>
+        <div class="box6">
+            <p>JAVA</p>
+        </div>
+        <div class="box7">
+            <p>NODE.JS</p>
+        </div>
+        <div class="box8">
+            <p>BOOTSTRAP</p>
+        </div>
+        
+    </div>
+    <br>
+    
+    <p class="course">This course is designed to equip you with the essential skills needed to build applications from scratch. Wheather you're beginner or looking to enhance your web development
+         skills, our curriculum covers all the necessary tools and technologies to help you succed in the tech industry.<b><a href="http://127.0.0.1:5500/course.html">click here </a></b> to see the course details.
+    </p>
+    <br>
+
+    <div class="form-box">
+       <div class="form-sec">
+         <h1 class="form-item">Apply to register now</h1>
+        
+         <form>
+            <input class="form-item" type="text" placeholder="name">
+            
+            <br>
+            <input class="form-item" type="email" placeholder="email">
+            
+            <br>
+            <input class="form-item" type="password" placeholder="password">
+            
+         </form>
+
+       </div>
+    </div>
+
+    <div class="thought">
+        <p>Time to Show your Hidden Skills</p>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+
+            <div class="list-1">
+                <ul>
+                    <li>Contact</li>
+                    <li>Submit</li>
+                    <li>Cancel subscription</li>
+                    <li>Address change</li>
+                    <li>style guid</li>
+                </ul>
+            </div>
+
+            
+            <div class="list-1">
+                <ul>
+                    <li>Fonts</li>
+                    <li>App</li>
+                    <li>Softwares</li>
+                    <li>Design</li>
+                    <li>show more</li>
+                </ul>
+            </div>
+
+            
+            <div class="list-1">
+                <ul>
+                    <li>Download</li>
+                    <li>Development</li>
+                    <li>Company</li>
+                    <li>Terms & conditions</li>
+                    <li>Privacy policy</li>
+                </ul>
+            </div>
+
+            <div class="list-2">
+                <p class="touch">get in touch</p>
+                <p class="logo1"><i class="fa-brands fa-facebook"></i></p>
+                <p class="logo1"><i class="fa-brands fa-twitter"></i></p>
+                <p class="logo1"><i class="fa-brands fa-linkedin"></i></p>
+            </div>
+
+        </div>
+    </footer>
+    
+
+</body>
+
+
+</html>
